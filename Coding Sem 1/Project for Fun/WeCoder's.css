@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #663399;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar a:hover {
+    color: #cccccc;
+}
+
+.navbar .search-container {
+    display: flex;
+}
+
+.navbar form {
+    display: flex;
+}
+
+.navbar input[type=text] {
+    border: none;
+    background-color: #ffffff;
+    color: #666666;
+    padding: 6px;
+    font-size: 14px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.navbar button {
+    border: none;
+    background-color: #ffffff;
+    color: #666666;
+    padding: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #cccccc;
+}

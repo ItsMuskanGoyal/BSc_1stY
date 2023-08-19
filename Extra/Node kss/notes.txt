@@ -1,0 +1,27 @@
+// function call(){
+//     console.log("server")}
+
+
+
+
+Command postman
+Post = sending data to backend
+put = 
+get = asking for data to backend
+delete = 
+
+Auth check postman
+
+everthing before question mark in parameter and after that is query
+
+
+dict= object or json form
+
+
+
+
+
+
+
+
+

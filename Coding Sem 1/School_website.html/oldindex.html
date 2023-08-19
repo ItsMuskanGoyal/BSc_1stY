@@ -1,0 +1,292 @@
+<html>
+
+<head>
+    <title>Vaish School</title>
+
+    <!--- <link rel="stylesheet" href="websitestyle.css"> --->
+
+    <style>
+        .navbar {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            background-color: white;
+            border-radius: 30px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: blue;
+        }
+        .navbar li a:hover {
+            color:white;
+            background-color: blue;
+        }
+
+        .search {
+            float: right;
+            color: blue;
+            padding: 12px 75px;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .center a{
+            text-decoration: none;
+            color: white;
+        }
+        .myDiv {
+            border: 5px outset rgb(213, 247, 24);
+            background-color: rgb(248, 8, 120);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body background="C:\Users\admin\Desktop\edubg.jpg" style="background-attachment: fixed;">
+    <font color="white">
+
+        <!-- <div class="myDiv">
+            <h2>This is a heading in a div element</h2>
+            <p>This is some text in a div element.</p>
+        </div> -->
+
+        <header>
+            <nav class="navbar">
+                <ul><b>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Notes</a></li>
+                        <li><a href="#">About us</a></li>
+                    </b>
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="Search Here">
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <!---
+        <div class="main">
+            <div class="navbar1">
+                <div class="icon">
+                    <h2 class="logo">Vaish</h2>
+                </div>
+            
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a> </li>
+                        <li><a href="#">Home</a> </li>
+                        <li><a href="#">Home</a> </li>
+                        <li><a href="#">Home</a> </li>
+                    </ul>
+                </div> 
+            </div>
+        </div> --->
+
+        
+        <h1>Vaish Girls Senior Secondary School</h1>
+        <h2Facilities</h2>
+        <ol>
+            <li>Labs Facilities
+                <ul>
+                    <li>Computer lab</li>
+                    <li> Chemistry Lab </li>
+                    <li> Biology Lab </li>
+                    <li> Physics Lab </li>
+                    <li>Music lab</li>
+                    <li>Activity Room</li>
+                    <li>NCC room</li>
+                    <li>Confrence Room</li>
+                </ul><br>
+            </li>
+            <li> All Rounder Development Classes
+                <ul>
+                    <li> Gymnastic</li>
+                    <li> Yoga</li>
+                    <li> Chess</li>
+                    <li> National Cadet</li>
+                    <li> Karata</li>
+                </ul><br>
+            </li>
+            <li>Best infrastructure
+                <ul>
+                    <li>Big ground</li>
+                    <li>Well Maintained Garden</li>
+                    <li>Big Cycle stand</li>
+                    <li>Well Furnised Classroom</li>
+                </ul><br>
+            </li>
+        </ol><hr>
+
+
+        <form action=""> <br>
+            <h1 align="center">Sign up form</h1>
+            <hr>
+            <h2 align="left">Contact Information</h2>
+            <p>
+                Name: <input type="text" name="name"> <br><br>
+            
+                Gender
+                Male <input type="radio" name="gender" id="gender">
+                Female <input type="radio" name="gender" id="gender"><br><br>
+            
+            Email : <input type="email" name="email" id="email"><br><br>
+            Address: <textarea name="address" id="address" cols="50" rows="5"></textarea><br><br>
+            Pincode : <input type="number" name="pincode" id="pincode"><br><br>
+            Phone number : <input type="number" name="phone" id="phone"><br>
+            <hr>
+            </p>
+            <p>
+            <h2 align="left">Payment Information for Fees payment</h2>
+            Card Type:
+            <select name="card_type" id="card_type">
+                <option value="visa">Visa</option>
+                <option value="master_card">Master Card</option>
+                <option value="rupay">Rupay</option>
+                <option value="debit_card">Debit Card</option>
+                <option value="credit_card">Credit Card</option>
+            </select> <br><br>
+            Card number <input type="number" name="card_number" id="card_number"><br><br>
+            Expiration Date: <input type="date" name="exp_date" id="exp_date"> <br><br>
+            CVV <input type="password" name="cvv" id="cvv"> <br><br>
+            <input type="reset" value="reset" id="reset">
+            <!-- <p style="border:blue border-radius: 20px;"> --->
+            <input type="submit" value="submit" id="submit">
+
+            </p>
+        </form>
+        <hr>
+
+        <table style="color: white">
+            <tr>
+                <th><b>Class and section</b></th>
+                <th><b>1st period </b> &emsp;</th>
+                <th><b>2nd period</b> &emsp;</th>
+                <th><b>3rd period</b> &emsp;</th>
+                <th><b>4th period</b> &emsp;</th>
+                <th><b>5th period</b> &emsp; </th>
+            </tr>
+            <tr>
+                <td> 12th B</td>
+                <td> Accounts </td>
+                <td> Economics</td>
+                <td> Maths</td>
+                <td> English</td>
+                <td> Business studies</td>
+            </tr>
+            <tr>
+                <td> 11th B</td>
+                <td> Maths </td>
+                <td> Accounts</td>
+                <td> Business Studies</td>
+                <td> Economics</td>
+                <td> English</td>
+            </tr>
+            <tr>
+                <td> 12th C</td>
+                <td> English </td>
+                <td> Maths</td>
+                <td> Physics</td>
+                <td> chemistry</td>
+                <td> Computer</td>
+            </tr>
+            <tr>
+                <td> 12th B</td>
+                <td> Chemistry</td>
+                <td> English</td>
+                <td> Physics</td>
+                <td> Computer</td>
+                <td> Maths</td>
+            </tr>
+
+        </table><br>
+        <hr><br>
+
+        <h3> Courses Offered </h3>
+        <iframe src="https://www.youtube.com/embed/vbgC_emEBXw" title="YouTube video player" frameborder="0" allow="accelerometer;
+        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="30%" height="30%"
+            allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/Ci-Anet_8iw" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="30%"
+            height="30%" allowfullscreen></iframe><br>
+        <iframe width="30%" height="30%" src="https://www.youtube.com/embed/qpIKeZnQ96s" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <iframe width="30%" height="30%" src="https://www.youtube.com/embed/xurpIIrqBL4" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe><br>
+
+        Farewell video link here: <br> <iframe width="30%" height="30%" src="https://www.youtube.com/embed/WjMNj0gcLMA"
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+            picture-in-picture" controls allowfullscreen></iframe>
+        <iframe width="30%" height="30%" src="https://www.youtube.com/embed/B9zgvLLDRLU" title="YouTube video player"
+            frameborder="0" allow="accelerometer;
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" controls
+            allowfullscreen></iframe>
+        <br>
+
+        Study vlogs here: <br>
+        <iframe width="30%" height="30%" src="https://www.youtube.com/embed/QVMQDYa_YsQ" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <iframe width="30%" height="30%" src="https://www.youtube.com/embed/LSqrXFelvRA" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <br><br>
+
+
+        <fieldset class="center">
+            <legend>
+                <h4> Notes link here :</h4>
+            </legend> <a href="https://www.w3schools.com/TAGS/default.ASP"> <b>Web dev Notes</b></a> &emsp;| &emsp;
+            <a href="https://www.vedantu.com/revision-notes/cbse-class-12-maths-notes"><b>Maths notes</b></a> &emsp; |
+            &emsp;
+            <a href="https://www.learncbse.in/cbse-notes-class-12-physics/"><b>Physics notes</b></a> &emsp; | &emsp;
+            <a
+                href="https://www.google.co.in/books/edition/Numbers_Don_t_Lie/e3_NDwAAQBAJ?hl=en&gbpv=1&dq=numbers%20don't%20lie&pg=PT9&printsec=frontcover&bsq=numbers%20don't%20lie">Book
+                pdf</a>
+        </fieldset><br><br>
+
+        <h4 align="center"> Map location :</h4>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14012.192225977129!2d76.2798303!3d28.5983351!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xee09bb1aa4831d1c!2sVaish%20Girls%20Sr.%20Sec.%20School!5e0!3m2!1sen!2sin!4v1642846178170!5m2!1sen!2sin"
+            width="50%" height="50%" ; allowfullscreen="" loading="lazy" class="center"> location </iframe><br>
+
+        <h2 align="center"><b>Vaish Girls Sr. Sec. School</b></h2>
+        <img src="C:\Users\admin\Desktop\vaish photo.jpg" width="30%" height="50%" class="center"><br>
+    
+        <h2 align="center"><b>Founder</b></h2>
+        <img src="C:\Users\admin\Desktop\photo1.png" width="30%" height="70%" class="center"><br>
+
+        <h3 style= "color:white;
+            text-decoration: none;"
+            class="center"><b></b><a href="https://www.w3schools.com/TAGS/default.ASP"> <b>Facebook </b></a> &emsp;| &emsp;
+            <a href="https://www.vedantu.com/revision-notes/cbse-class-12-maths-notes"><b>Insta</b></a> &emsp; | &emsp;
+            <a href="https://www.learncbse.in/cbse-notes-class-12-physics/"><b>Linkdin</b></a> &emsp; | &emsp;
+            <a href="https://www.learncbse.in/cbse-notes-class-12-physics/"><b>Twitter</b></a> &emsp; </b></h3>
+
+    </font>
+    
+</body>
+
+</html>

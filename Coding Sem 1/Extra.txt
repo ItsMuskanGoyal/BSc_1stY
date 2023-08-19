@@ -1,0 +1,38 @@
+
+        // Use of continue statement = It just skip that iteration
+        // NO need to run this code as it if infinite
+        /* 
+        System.out.println("Enter number which is multiple of 10");
+        do{
+        int number87= sc.nextInt();
+        if(number87%3==0){
+
+            continue;
+        }
+        System.out.println(number87);
+        }while(true);*/
+
+        //Prime number check
+        /*System.out.println("Enter no to check prime or not");
+        int number56 = sc.nextInt();
+        int i;
+        for(int i; i<number56; i++){
+            if(number56 % i==0){
+                break;
+            }
+            System.out.println("This number is prime");
+        }*/
+
+        //prime no. check
+        /* 
+        System.out.println("Enter number to check prime or not");
+        int number93= sc.nextInt();
+        boolean isprime= true;
+        for(int i7; i7<number93; i7++){
+            if(number93%i7==0) {
+                System.out.println("composite");
+                isprime= false;
+            }
+            System.out.println("Prime");
+        }  
+        */

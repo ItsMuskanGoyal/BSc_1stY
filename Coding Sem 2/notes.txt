@@ -1,0 +1,11 @@
+Suggested Practical List
+1. Create and transform vectors and matrices (the transpose vector (matrix) conjugate transpose
+of a vector (matrix))
+2. Generate the matrix into echelon form and find its rank.
+3. Find cofactors, determinant, adjoint and inverse of a matrix.
+4. Solve a system of Homogeneous and non-homogeneous equations using Gauss elimination
+method.
+1. Solve a system of Homogeneous equations using the Gauss Jordan method.
+6. Generate basis of column space, null space, row space and left null space of a matrix space.
+7.Check the linear dependence of vectors. Generate a linear combination of given vectors of Rn/
+matrices of the same size and find the transition matrix of given matrix space.
